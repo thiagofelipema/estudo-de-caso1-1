@@ -1,0 +1,129 @@
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.header{
+    background-color: #351A1A;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* justify-content: right; */
+    
+    padding: 10px;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menul li a{
+    display: block;
+    padding: 10px;
+}
+
+
+.navegacao{
+    background-color:#fff;
+    color:#333;
+    text-decoration:none; 
+    padding: 20px 80px ;
+    display: flex;
+    
+        list-style:none;
+        align-items: center;
+        align-content: space-between;
+        
+}
+
+.navegacao li a:hover{
+    background:#44A126;
+    color:#fff;
+} 
+
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*
+header {
+    grid-area: cabecalho;
+}
+nav {
+    grid-area: navegacao;
+}
+main {
+    grid-area: conteudo;
+}
+footer {
+    grid-area: rodape;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas:
+             'cabecalho cabecalho'
+             'navegacao navegacao'
+             'conteudo conteudo'
+             'rodape rodape';
+}
+
+*/
+
+
+.menu li{
+    position:relative;
+    float:left;
+    
+    }
+
+    .menu li a{color:#333; text-decoration:none; padding:40px 30px; display:block;}
+
+.menu li a:hover{
+    background:#44A126;
+    color:#fff;
+    
+    }
+
+
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    display:block;
+    width:400px;
+    
+}
+
+.paragrafo1-home{
+    font-size: 17px;
+    background-color: #44A126;
+    color:#fff;
+    padding: 60px 60px 60px 160px;
+    
+   
+    
+}
